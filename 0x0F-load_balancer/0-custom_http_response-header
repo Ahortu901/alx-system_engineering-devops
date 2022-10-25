@@ -34,4 +34,4 @@ if [ "$(pgrep -c nginx)" -le 0 ]; then
 	sudo service nginx start
 else
 	sudo service nginx restart
-fiBlessingdev233
+fi
